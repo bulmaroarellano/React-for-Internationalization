@@ -1,10 +1,17 @@
-import Header from './Components/Header';
+import React from 'react';
+
 require('./style.css');
 
+class Infobox extends React.Component{
+render(){
+  const {headline}=this.props;
+  return <h1>{headline}</h1>
+}}
+
+ 
 function App() {
   return (
-
-    <Header />
+    <Infobox headline="Hello World" />
   );
 }
 
