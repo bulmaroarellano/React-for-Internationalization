@@ -1,12 +1,11 @@
-# Test your knowledge!
+# Activity 2.2: Creating a React App to Log Your Goals for This Book 
 
-Suppose you are creating your personal portfolio page, and as part of that page, you want to output some basic information about yourself (e.g., your name or age). You could use React and build a React component that outputs this kind of information, as outlined in the following activity.
+Suppose you are adding a new section to your portfolio site, where you plan to track your learning progress. As part of this page, you plan to define and output your main goals for this book (e.g., "Learn about key React features", "Do all the exercises", etc.). 
 
-The aim is to create a React app as you learned it in the previous chapter (i.e., create it via npx create-react-app, run npm start to start the development server) and edit the App.js file such that you output some basic information about yourself. You could, for example output your full name, address, job title or other kinds of information. In the end, it is up to you what content you want to output and which HTML elements you choose.
+The aim of this activity is to create another new React project in which you add multiple new components. Each goal will be represented by a separate component, and all these goal components will be grouped together into another component that lists all main goals. In addition, you can add an extra header component that contains the main title for the webpage. 
 
-The idea behind this first exercise is that you practice project creation and working with JSX code.
+Perform the following steps to complete this activity:
 
-The steps are as follows:
-
-1.- Create a new React project via npx create-react-app.
-2.- Edit the App.js file in the /src folder of the created project and return JSX code with any HTML elements of your choice to output basic information about yourself.
+Create a new React project by running npx create-react-app my-app. You can replace my-app with any name of your choice, and you can run this command in any fitting place on your system (e.g., on your desktop). Start the development web server by running npm start inside the created project folder. 
+Create a new /src/components folder in the project 
+In the /src/components folder, create multiple component files—for example, FirstGoal.js, SecondGoal.js, ThirdGoal.js, GoalList.js and Header.js 
