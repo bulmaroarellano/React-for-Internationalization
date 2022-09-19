@@ -1,11 +1,12 @@
-# Activity 2.2: Creating a React App to Log Your Goals for This Book 
+# Activity 3.1: Creating an App to Output Your Goals for This Book
 
-Suppose you are adding a new section to your portfolio site, where you plan to track your learning progress. As part of this page, you plan to define and output your main goals for this book (e.g., "Learn about key React features", "Do all the exercises", etc.). 
 
-The aim of this activity is to create another new React project in which you add multiple new components. Each goal will be represented by a separate component, and all these goal components will be grouped together into another component that lists all main goals. In addition, you can add an extra header component that contains the main title for the webpage. 
+SThis activity builds upon Activity 2.2 from the previous chapter. If you followed along there, you can use your existing code and enhance it by adding props.
+
+The aim here is to build reusable GoalItem components that can be configured via props. Every GoalItem component should receive and output a goal title and a short description text with extra information about the goal.
 
 Perform the following steps to complete this activity:
 
-Create a new React project by running npx create-react-app my-app. You can replace my-app with any name of your choice, and you can run this command in any fitting place on your system (e.g., on your desktop). Start the development web server by running npm start inside the created project folder. 
-Create a new /src/components folder in the project 
-In the /src/components folder, create multiple component files—for example, FirstGoal.js, SecondGoal.js, ThirdGoal.js, GoalList.js and Header.js 
+1.-Finish Activity 2.2 from the previous chapter.
+2.- Add a new component to the src/components folder, a component function named GoalItem, in a new GoalItem.js file.
+3.- Copy the component function (including the returned JSX code) from FirstGoal.js and add a new props parameter to the       function. Remove the title and description text from the JSX code:
