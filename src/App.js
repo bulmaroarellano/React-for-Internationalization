@@ -1,11 +1,9 @@
-import GoalList from './components/GoalList/GoalList';
-import Header from './components/Header/Header';
+import  {Toggle}  from "./components/Codecademy/components/Toggle";
 
 function App() {
   return (
     <>
-    <Header />
-    <GoalList />
+    <Toggle /> 
     </>
     );
 }
